@@ -67,7 +67,6 @@ const zooAnimals = [
    console.log(displayNames)
    return displayNames;
   }
-  animalNames(zooAnimals);
   
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
