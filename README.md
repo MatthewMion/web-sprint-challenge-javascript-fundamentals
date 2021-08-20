@@ -33,6 +33,7 @@ Edit this document to include your answers after each question. Make sure to lea
 4. Describe the four principles of the 'this' keyword.
 
 5. Why do we need super() in an extended class?
+    -super() is needed with extends in order to pass the traits of the parent class onto the child class.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
