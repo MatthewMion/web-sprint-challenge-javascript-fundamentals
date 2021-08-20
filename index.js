@@ -58,13 +58,16 @@ const zooAnimals = [
   */
 
   function animalNames(array){
-    let displayNames = [];
-    array.forEach(function (item){
-      displayNames.push(item.animal_name);
-      displayNames.push(item.scientific_name);
-    })
-    return displayNames;
+   const displayNames = [];
+   array.forEach(callback)
+
+   function callback(item){
+    displayNames.push(`name: ${item.animal_name}, scientific: ${item.scientific_name}`)
+   }
+   console.log(displayNames)
+   return displayNames;
   }
+  animalNames(zooAnimals);
   
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
